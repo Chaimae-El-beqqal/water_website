@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>حافظ على الماء، حافظ على الحياة -- Économisez l'eau, sauvez la vie !</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>حافظ على الماء، حافظ على الحياة -- Économisez l'eau, sauvez la vie !</h1>
+    
+    <form>
+      <label for="quantity">كم قطرة من الماء تهدر؟ -- Combien de gouttes d'eau êtes-vous en train de gaspiller ?</label>
+      <input type="number" id="quantity" name="quantity" min="1" placeholder="quantité d'eau" required>
+      <select id="unit" name="unit">
+        <option value="ml">ملليمترات (مل) -- Millilitres (ml)</option>
+        <option value="l">ليترات (لتر) -- Litres (l)</option>
+      </select>
+      <button type="button" onclick="calculate()">حساب -- Calculer</button>
+    </form>
+    <div id="results"></div>
+  </div>
+  <div class="footer">
+ <footer>
+    <img src="footer.jpg" alt=""/>
+ </footer>
+   </div>
+  <script src="script.js"></script>
+</body>
+</html>
